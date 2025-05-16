@@ -110,7 +110,7 @@ ComposefsConfig *otcore_load_composefs_config (const char *cmdline, GKeyFile *co
 
 // The file written in the initramfs which contains an a{sv} of metadata
 // from ostree-prepare-root.
-#define OTCORE_RUN_BOOTED "/run/ostree-booted"
+#define OTCORE_RUN_BOOTED "etc/ostree-booted"
 // This key will be present if composefs was successfully used.
 #define OTCORE_RUN_BOOTED_KEY_COMPOSEFS "composefs"
 // True if fsverity was required for composefs.
